@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/adwent/static/css/main.b8e05dbe.chunk.css",
+    "main.js": "/adwent/static/js/main.036bdc38.chunk.js",
+    "main.js.map": "/adwent/static/js/main.036bdc38.chunk.js.map",
+    "runtime-main.js": "/adwent/static/js/runtime-main.9a828ea2.js",
+    "runtime-main.js.map": "/adwent/static/js/runtime-main.9a828ea2.js.map",
+    "static/css/2.383c0125.chunk.css": "/adwent/static/css/2.383c0125.chunk.css",
+    "static/js/2.164e4fad.chunk.js": "/adwent/static/js/2.164e4fad.chunk.js",
+    "static/js/2.164e4fad.chunk.js.map": "/adwent/static/js/2.164e4fad.chunk.js.map",
+    "index.html": "/adwent/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/adwent/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.b8e05dbe.chunk.css.map": "/adwent/static/css/main.b8e05dbe.chunk.css.map",
+    "static/js/2.164e4fad.chunk.js.LICENSE.txt": "/adwent/static/js/2.164e4fad.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/adwent/static/media/desk_okno_9.13b025e8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a828ea2.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.164e4fad.chunk.js",
+    "static/css/main.b8e05dbe.chunk.css",
+    "static/js/main.036bdc38.chunk.js"
+  ]
+}

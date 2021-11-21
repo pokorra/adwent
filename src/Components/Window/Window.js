@@ -3,9 +3,7 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 
 const Window = ({currentDate, thisDay}) => {
-    // console.log(currentDate, thisDay);
     const [isModalOpen, setModalOpen] = useState(false);
-    const [isButtonDisabled, setButtonDisabled] = useState(false);
     const isBtnDsbled = currentDate >= thisDay ? false : true;
     const openModal = () => setModalOpen(true);
     const closeModal = () => setModalOpen(false);
@@ -27,14 +25,21 @@ const Window = ({currentDate, thisDay}) => {
     <>
       <button onClick={openModal} disabled={isBtnDsbled} className={`window window-pic-${thisDay} ${isBtnDsbled ? 'darker' : 'pointer'}`}>
       </button>
-      <Modal show={isModalOpen} onHide={closeModal} >
+      <Modal show={isModalOpen} onHide={closeModal} size="lg" centered contentClassName="modal-additional">
         <Modal.Header closeButton>
-            <Modal.Title> {thisDay} grudnia </Modal.Title>
+            <Modal.Title> {thisDay} grudnia: </Modal.Title>
         </Modal.Header>
+        <Modal.Body>
+           <p>Dziś jest: {currentDate}. grudnia. Ta strona pokazuje prezent na {thisDay}. grudnia.</p> <br/> <br/> <br/>
+           <p>Psy </p>
+           <br/> <br/> <br/>
+           <p>Koty </p><br/> <br/> <br/>
+           <p>Inne źwierzęta </p>
+        </Modal.Body>
+        <Modal.Footer>
+            <button onClick={closeModal}>Zamknij</button>
+        </Modal.Footer>
       </Modal>
-      {/* <Modal isOpen={isModalOpen} style={customStyles}>
-        <h2>dzień: {thisDay} </h2>
-      </Modal> */}
     </>
   );
 };

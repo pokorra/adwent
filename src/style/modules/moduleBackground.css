@@ -1,0 +1,18 @@
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../../images/mobile/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+@media (min-width: 800px ) and (orientation: landscape) {
+    .background {
+        background-image: url(../../images/desktop/background.png);
+    }
+}

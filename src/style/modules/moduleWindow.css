@@ -1,0 +1,95 @@
+.main-container .window {
+  height: 33vw;
+  width: 18vw;
+  background-position: center;
+  background-size: cover;
+  
+  z-index: 5;
+  margin-bottom: 3vw;
+  padding: 0;
+  position: relative;
+  /* border: 1px solid black; */
+}
+@media (min-width: 800px) and (orientation: landscape) {
+  .main-container .window {
+    height: 21vh;
+    width: 12vh;
+  }
+}
+
+.window-pic-1 {
+  background-image: url(../../images/desktop/desk_okno_1.png);
+}
+.window-pic-2 {
+  background-image: url(../../images/desktop/desk_okno_2.png);
+}
+.window-pic-3 {
+  background-image: url(../../images/desktop/desk_okno_3.png);
+}
+.window-pic-4 {
+  background-image: url(../../images/desktop/desk_okno_4.png);
+}
+.window-pic-5 {
+  background-image: url(../../images/desktop/desk_okno_5.png);
+}
+.window-pic-6 {
+  background-image: url(../../images/desktop/desk_okno_6.png);
+}
+.window-pic-7 {
+  background-image: url(../../images/desktop/desk_okno_7.png);
+}
+.window-pic-8 {
+  background-image: url(../../images/desktop/desk_okno_8.png);
+}
+.window-pic-9 {
+  background-image: url(../../images/desktop/desk_okno_9.png);
+}
+.window-pic-10 {
+  background-image: url(../../images/desktop/desk_okno_10.png);
+}
+.window-pic-11 {
+  background-image: url(../../images/desktop/desk_okno_11.png);
+}
+.window-pic-12 {
+  background-image: url(../../images/desktop/desk_okno_12.png);
+}
+.window-pic-13 {
+  background-image: url(../../images/desktop/desk_okno_13.png);
+}
+.window-pic-14 {
+  background-image: url(../../images/desktop/desk_okno_14.png);
+}
+.window-pic-15 {
+  background-image: url(../../images/desktop/desk_okno_15.png);
+}
+.window-pic-16 {
+  background-image: url(../../images/desktop/desk_okno_16.png);
+}
+.window-pic-17 {
+  background-image: url(../../images/desktop/desk_okno_17.png);
+}
+.window-pic-18 {
+  background-image: url(../../images/desktop/desk_okno_18.png);
+}
+.window-pic-19 {
+  background-image: url(../../images/desktop/desk_okno_19.png);
+}
+.window-pic-20 {
+  background-image: url(../../images/desktop/desk_okno_20.png);
+}
+.window-pic-21 {
+  background-image: url(../../images/desktop/desk_okno_21.png);
+}
+.window-pic-22 {
+  background-image: url(../../images/desktop/desk_okno_22.png);
+}
+.window-pic-23 {
+  background-image: url(../../images/desktop/desk_okno_23.png);
+}
+.window-pic-24 {
+  background-image: url(../../images/desktop/desk_okno_24.png);
+}
+
+.darker {
+  filter: brightness(80%) blur(1px);
+}

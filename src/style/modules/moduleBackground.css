@@ -15,4 +15,26 @@
     .background {
         background-image: url(../../images/desktop/background.png);
     }
+    .background::before {
+        content: '';
+        position: absolute;
+        width: 90vw;
+        height: 85vh;
+        bottom: 0;
+        left: 6vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url(../../images/desktop/desk_drzewa.png);
+    }
+    .background::after {
+        content: '';
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        background-size: contain;
+        background-image: url(../../images/desktop/desk_snieg.png);
+    }
 }

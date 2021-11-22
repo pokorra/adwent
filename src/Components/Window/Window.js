@@ -3,7 +3,6 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import { arrayOfGifts } from "../../dataBase/dataBase";
 
-console.log(arrayOfGifts.length);
 const Window = ({currentDate, thisDay}) => {
     const [isModalOpen, setModalOpen] = useState(false);
     const isBtnDsbled = currentDate >= thisDay ? false : true;

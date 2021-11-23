@@ -14,18 +14,7 @@
 @media (min-width: 800px ) and (orientation: landscape) {
     .background {
         background-image: url(../../images/desktop/background.png);
-    }
-    .background::before {
-        content: '';
-        position: absolute;
-        width: 90vw;
-        height: 85vh;
-        bottom: 0;
-        left: 6vw;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-image: url(../../images/desktop/desk_drzewa.png);
+        overflow: hidden;
     }
     .background::after {
         content: '';
@@ -36,5 +25,62 @@
         bottom: 0;
         background-size: contain;
         background-image: url(../../images/desktop/desk_snieg.png);
+    }
+    .main-container__leaves1 {
+        position: absolute;
+        background-image: url(../../images//desktop/desk_jemiola.png);
+        width: 35vh;
+        height: 35vh;
+        background-size: contain;
+        top: -5vh;
+        left: 0vh;
+        background-repeat: no-repeat;
+        z-index: 3;
+    }
+    .main-container__leaves2 {
+        position: absolute;
+        background-image: url(../../images//desktop/desk_listki_duze.png);
+        width: 60vh;
+        height: 40vh;
+        background-size: contain;
+        top: -5vh;
+        right: 15vh;
+        background-repeat: no-repeat;
+        z-index: 3;
+    }
+    .main-container__leaves3 {
+        position: absolute;
+        background-image: url(../../images//desktop/desk_listki_duze2.png);
+        width: 21vh;
+        height: 40vh;
+        background-size: contain;
+        bottom: 0;
+        right: 8vh;
+        background-repeat: no-repeat;
+        z-index: 3;
+
+    }
+    .main-container__leaves4 {
+        position: absolute;
+        background-image: url(../../images//desktop/desk_listki_duze2.png);
+        transform: scaleX(-1);
+        width: 21vh;
+        height: 40vh;
+        background-size: contain;
+        bottom: -2vh;
+        left: 7vh;
+        background-repeat: no-repeat;
+        z-index: 3;
+    }
+    .main-container__leaves5 {
+        position: absolute;
+        background-image: url(../../images//desktop/desk_listki1.png);
+        width: 20vh;
+        height: 23vh;
+        background-size: contain;
+        top: 6vh;
+        right: 1vh;
+        background-repeat: no-repeat;
+        z-index: 3;
     }
 }

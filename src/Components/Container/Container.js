@@ -8,11 +8,7 @@ const Container = () => {
 
   return (
     <div className="main-container">
-        <div className="main-container__leaves1"></div>
-        <div className="main-container__leaves2"></div>
-        <div className="main-container__leaves3"></div>
-        <div className="main-container__leaves4"></div>
-        <div className="main-container__leaves5"></div>
+        
         <Window currentDate={currentDate} thisDay={5} />
         <Window currentDate={currentDate} thisDay={21} />
         <Window currentDate={currentDate} thisDay={19} />

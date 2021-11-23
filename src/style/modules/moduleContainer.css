@@ -27,7 +27,7 @@
         background-position: center bottom;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(3, 24vh);
-        position: static;
+        position: relative;
     }
     .main-container__leaves1 {
         position: absolute;

@@ -29,7 +29,6 @@
         grid-template-rows: repeat(3, 24vh);
         position: relative;
 
-        border: 1px solid red;
     }
 
 }

@@ -26,6 +26,18 @@
         background-size: contain;
         background-image: url(../../images/desktop/desk_snieg.png);
     }
+    .background::before {
+        content: '';
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/desktop/logo_desktop.png);
+        width: 28vh;
+        height: 52vh;
+        top: 0vh;
+        left: 2vw;
+        z-index: 6;
+    }
     .main-container__leaves1 {
         position: absolute;
         background-image: url(../../images//desktop/desk_jemiola.png);
@@ -91,7 +103,6 @@
         background-size: contain;
         background-repeat: no-repeat;
         bottom: 0;
-        border: 2px solid black;
     }
     .tree1 {
         background-image: url(../../images/desktop/sosna_A.png);

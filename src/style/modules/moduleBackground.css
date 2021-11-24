@@ -25,6 +25,7 @@
         bottom: 0;
         background-size: contain;
         background-image: url(../../images/desktop/desk_snieg.png);
+        animation: bubbles 3s linear infinite;
     }
     .background::before {
         content: '';
@@ -111,5 +112,15 @@
     .tree2 {
         background-image: url(../../images/desktop/sosna_B.png);
         right: 10vh;
+    }
+}
+
+@keyframes bubbles {
+    0%, 100% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.01);
+        opacity: .7;
     }
 }

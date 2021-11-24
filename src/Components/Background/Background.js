@@ -11,6 +11,8 @@ const Background = () => {
         <div className="main-container__leaves3"></div>
         <div className="main-container__leaves4"></div>
         <div className="main-container__leaves5"></div>
+        <div className="tree tree1"></div>
+        <div className="tree tree2"></div>
         </div>
     )
 };

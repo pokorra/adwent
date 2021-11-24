@@ -8,7 +8,6 @@ const Container = () => {
 
   return (
     <div className="main-container">
-        
         <Window currentDate={currentDate} thisDay={5} />
         <Window currentDate={currentDate} thisDay={21} />
         <Window currentDate={currentDate} thisDay={19} />

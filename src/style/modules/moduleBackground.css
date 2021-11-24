@@ -83,4 +83,22 @@
         background-repeat: no-repeat;
         z-index: 3;
     }
+    .tree {
+        content: '';
+        position: absolute;
+        height: 65vh;
+        width: 30vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+        border: 2px solid black;
+    }
+    .tree1 {
+        background-image: url(../../images/desktop/sosna_A.png);
+        left: 10vh;
+    }
+    .tree2 {
+        background-image: url(../../images/desktop/sosna_B.png);
+        right: 10vh;
+    }
 }

@@ -1,8 +1,8 @@
 .modal-additional {
-    background-image: url(../../images/desktop/background.png);
+    background-image: url(../../images/desktop/modal_tlo_ramka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid white;
-    height: 75vh;
-    width: 60vh;
+    /* height: 75vh; */
+    /* width: 60vh; */
 }

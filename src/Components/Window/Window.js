@@ -14,7 +14,7 @@ const Window = ({currentDate, thisDay}) => {
       <button onClick={openModal} disabled={isBtnDsbled} className={`window window-pic-${thisDay} ${isBtnDsbled ? 'darker' : 'pointer'}`}>
       </button>
       <Modal show={isModalOpen} onHide={closeModal} size="lg" centered contentClassName="modal-additional">
-        <Modal.Header closeButton>
+        <Modal.Header closeButton >
             <Modal.Title> {thisDay} grudnia: </Modal.Title>
         </Modal.Header>
         <Modal.Body>

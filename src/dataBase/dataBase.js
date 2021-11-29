@@ -1,28 +1,34 @@
-import mis_pracus from "./files/mis_pracus.jpg";
-import Wesole_swieta_do_pobrania from "./files/Wesole_swieta_do_pobrania.pdf";
+import konkurs_mis_pracus from "./files/konkurs_mis_pracus.jpg";
+import pobranie_Wesole_swieta from "./files/pobranie_Wesole_swieta.pdf";
 
 export const arrayOfGifts = [
   <div className="gift-container">
+    <iframe
+      /*width="560" height="315"*/ src="https://www.youtube.com/embed/dkgNQpeBy_g"
+      title="DIY torebki na prezenty"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>,
+  <div className="gift-container gift-container__primary gift-download gift-wesole">
+    <a
+      href={pobranie_Wesole_swieta}
+      target="_blank"
+      rel="noreferrer"
+      download={pobranie_Wesole_swieta}
+    ></a>
+  </div>,
+  <div className="gift-container">
+    <div>DZIEŃ 3 DZIKIE DZIECI</div>
+  </div>,
+  <div className="gift-container">
     <img
-      src={mis_pracus}
+      src={konkurs_mis_pracus}
       alt="miś pracuś"
       className="gift-container__image"
     ></img>
   </div>,
-  <div className="gift-container">
-    <a
-      href={Wesole_swieta_do_pobrania}
-      target="_blank"
-      rel="noreferrer"
-      download={Wesole_swieta_do_pobrania}
-    >
-      <h2 className="gift-container__info">Wesołe święta do pobrania </h2>
-    </a>
-  </div>,
-  <div className="gift-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/gbVDWdSwvbM" title="Merry Christmas" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-  </div>,
-  <div className="gift-container"></div>,
   <div className="gift-container"></div>,
   <div className="gift-container"></div>,
   <div className="gift-container"></div>,

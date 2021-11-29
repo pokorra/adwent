@@ -1,19 +1,49 @@
 .gift-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .gift-container__image {
-    margin: 7vh;
-    width: 100%;
-    height: 100%;
+  margin: 5vh;
+  width: 100%;
+  height: 100%;
 }
 
 .gift-container__info {
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-    text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.gift-download {
+  cursor: pointer;
+  min-height: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.gift-container > iframe {
+  min-width: 80vw;
+}
+
+.gift-wesole {
+  background-image: url(../../dataBase/files/pobranie_wesole_elfy_pic.jpg);
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .gift-container__image {
+    margin: 2vh;
+    width: 60%;
+    height: 60%;
+  }
+  .gift-download {
+    min-height: 30vw;
+  }
+  .gift-container > iframe {
+    min-width: 40vw;
+    min-height: 25vw;
+  }
 }

@@ -25,12 +25,21 @@
   background-repeat: no-repeat;
   background-position-x: center;
 }
+
+.gift-download a {
+  width: 100%;
+}
 .gift-container > iframe {
   min-width: 80vw;
 }
 
 .gift-wesole {
   background-image: url(../../dataBase/files/pobranie_wesole_elfy_pic.jpg);
+}
+
+.gift-anchor-content {
+  color: transparent;
+  visibility: hidden;
 }
 
 @media (min-width: 800px) and (orientation: landscape) {

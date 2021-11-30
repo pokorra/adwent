@@ -4,7 +4,7 @@ import pobranie_Wesole_swieta from "./files/pobranie_Wesole_swieta.pdf";
 export const arrayOfGifts = [
   <div className="gift-container">
     <iframe
-      /*width="560" height="315"*/ src="https://www.youtube.com/embed/dkgNQpeBy_g"
+      src="https://www.youtube.com/embed/dkgNQpeBy_g"
       title="DIY torebki na prezenty"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -17,7 +17,7 @@ export const arrayOfGifts = [
       target="_blank"
       rel="noreferrer"
       download={pobranie_Wesole_swieta}
-    ></a>
+    > <p className="gift-anchor-content"> "wesołe święta"</p></a>
   </div>,
   <div className="gift-container">
     <div>DZIEŃ 3 DZIKIE DZIECI</div>

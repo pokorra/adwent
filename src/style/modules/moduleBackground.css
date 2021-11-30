@@ -1,126 +1,162 @@
-
 .background {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    background-image: url(../../images/mobile/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column-reverse;
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../../images/mobile/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../images/desktop/logo_desktop.png);
+  z-index: 6;
+  width: 40vw;
+  height: 40vw;
+  top: 0vh;
+  left: 30vw;
+}
+.main-container__leaves1 {
+  position: absolute;
+  background-image: url(../../images//desktop/desk_jemiola.png);
+  width: 22vh;
+  height: 21vh;
+  top: 0vh;
+  left: -10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.main-container__leaves2 {
+  position: absolute;
+  background-image: url(../../images//desktop/desk_listki_duze.png);
+  width: 29vh;
+  height: 17vh;
+  top: -2.5vh;
+  right: -7vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.main-container__leaves2::after {
+  content: "";
+  position: absolute;
+  background-image: url(../../images/mobile/Logo_Wilga_swieta.png);
+  top: 23vw;
+  right: 9vw;
+  width: 13vw;
+  height: 19vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 8;
 }
 
-@media (min-width: 800px ) and (orientation: landscape) {
-    .background {
-        background-image: url(../../images/desktop/background.png);
-        overflow: hidden;
-    }
-    .background::after {
-        content: '';
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        top: 0;
-        bottom: 0;
-        background-size: contain;
-        background-image: url(../../images/desktop/desk_snieg.png);
-        animation: bubbles 3s linear infinite;
-    }
-    .background::before {
-        content: '';
-        position: absolute;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url(../../images/desktop/logo_desktop.png);
-        width: 28vh;
-        height: 52vh;
-        top: 0vh;
-        left: 2vw;
-        z-index: 6;
-    }
-    .main-container__leaves1 {
-        position: absolute;
-        background-image: url(../../images//desktop/desk_jemiola.png);
-        width: 35vh;
-        height: 35vh;
-        background-size: contain;
-        top: -5vh;
-        left: 30vh;
-        background-repeat: no-repeat;
-        z-index: 3;
-    }
-    .main-container__leaves2 {
-        position: absolute;
-        background-image: url(../../images//desktop/desk_listki_duze.png);
-        width: 60vh;
-        height: 40vh;
-        background-size: contain;
-        top: -5vh;
-        right: 15vh;
-        background-repeat: no-repeat;
-        z-index: 3;
-    }
-    .main-container__leaves3 {
-        position: absolute;
-        background-image: url(../../images//desktop/desk_listki_duze2.png);
-        width: 21vh;
-        height: 40vh;
-        background-size: contain;
-        bottom: 0;
-        right: -2vh;
-        background-repeat: no-repeat;
-        z-index: 3;
-
-    }
-    .main-container__leaves4 {
-        position: absolute;
-        background-image: url(../../images//desktop/desk_listki_duze2.png);
-        transform: scaleX(-1);
-        width: 21vh;
-        height: 40vh;
-        background-size: contain;
-        bottom: -2vh;
-        left: -2vh;
-        background-repeat: no-repeat;
-        z-index: 3;
-    }
-    .main-container__leaves5 {
-        position: absolute;
-        background-image: url(../../images//desktop/desk_listki1.png);
-        width: 20vh;
-        height: 23vh;
-        background-size: contain;
-        top: 6vh;
-        right: 1vh;
-        background-repeat: no-repeat;
-        z-index: 3;
-    }
-    .tree {
-        content: '';
-        position: absolute;
-        height: 65vh;
-        width: 30vh;
-        background-size: contain;
-        background-repeat: no-repeat;
-        bottom: 0;
-    }
-    .tree1 {
-        background-image: url(../../images/desktop/sosna_A.png);
-        left: 10vh;
-    }
-    .tree2 {
-        background-image: url(../../images/desktop/sosna_B.png);
-        right: 10vh;
-    }
+@media (min-width: 800px) and (orientation: landscape) {
+  .background {
+    background-image: url(../../images/desktop/background.png);
+    overflow: hidden;
+  }
+  .background::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    background-size: contain;
+    background-image: url(../../images/desktop/desk_snieg.png);
+    animation: bubbles 3s linear infinite;
+  }
+  .background::before {
+    width: 28vh;
+    height: 52vh;
+    top: 0vh;
+    left: 2vw;
+  }
+  .main-container__leaves1 {
+    width: 35vh;
+    height: 35vh;
+    top: -5vh;
+    left: 30vh;
+  }
+  .main-container__leaves2 {
+    width: 60vh;
+    height: 40vh;
+    top: -5vh;
+    right: 15vh;
+  }
+  .main-container__leaves2::after {
+    top: 5vw;
+    right: -4vw;
+    width: 10vh;
+    height: 14vh;
+    z-index: 15;
+  }
+  .main-container__leaves3 {
+    position: absolute;
+    background-image: url(../../images//desktop/desk_listki_duze2.png);
+    width: 21vh;
+    height: 40vh;
+    background-size: contain;
+    bottom: 0;
+    right: -2vh;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+  .main-container__leaves4 {
+    position: absolute;
+    background-image: url(../../images//desktop/desk_listki_duze2.png);
+    transform: scaleX(-1);
+    width: 21vh;
+    height: 40vh;
+    background-size: contain;
+    bottom: -2vh;
+    left: -2vh;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+  .main-container__leaves5 {
+    position: absolute;
+    background-image: url(../../images//desktop/desk_listki1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 23vh;
+    top: 17vh;
+    right: 1vh;
+    z-index: 3;
+  }
+  .tree {
+    content: "";
+    position: absolute;
+    height: 65vh;
+    width: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+  }
+  .tree1 {
+    background-image: url(../../images/desktop/sosna_A.png);
+    left: 10vh;
+  }
+  .tree2 {
+    background-image: url(../../images/desktop/sosna_B.png);
+    right: 10vh;
+  }
 }
 
 @keyframes bubbles {
-    0%, 100% {
-        transform: scale(1)
-    }
-    50% {
-        transform: scale(1.01);
-        opacity: .7;
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.01);
+    opacity: 0.7;
+  }
 }

@@ -9,6 +9,17 @@
   flex-direction: column-reverse;
   position: relative;
 }
+.background::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 120vh;
+  top: 0;
+  /* bottom: 0; */
+  background-size: contain;
+  background-image: url(../../images/mobile/snieg_mobile.png);
+  animation: bubbles 3s linear infinite;
+}
 .background::before {
   content: "";
   position: absolute;
@@ -35,11 +46,11 @@
 .main-container__leaves2 {
   position: absolute;
   background-image: url(../../images//desktop/desk_listki_duze.png);
-  width: 29vh;
+  width: 21vh;
   height: 17vh;
   top: -2.5vh;
-  right: -7vw;
-  background-size: contain;
+  right: 0vw;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 3;
 }
@@ -48,7 +59,7 @@
   position: absolute;
   background-image: url(../../images/mobile/Logo_Wilga_swieta.png);
   top: 23vw;
-  right: 9vw;
+  right: 5vw;
   width: 13vw;
   height: 19vw;
   background-size: contain;
@@ -62,15 +73,7 @@
     overflow: hidden;
   }
   .background::after {
-    content: "";
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    bottom: 0;
-    background-size: contain;
     background-image: url(../../images/desktop/desk_snieg.png);
-    animation: bubbles 3s linear infinite;
   }
   .background::before {
     width: 28vh;

@@ -46,7 +46,7 @@
         height: 35vh;
         background-size: contain;
         top: -5vh;
-        left: 0vh;
+        left: 30vh;
         background-repeat: no-repeat;
         z-index: 3;
     }
@@ -68,7 +68,7 @@
         height: 40vh;
         background-size: contain;
         bottom: 0;
-        right: 8vh;
+        right: -2vh;
         background-repeat: no-repeat;
         z-index: 3;
 
@@ -81,7 +81,7 @@
         height: 40vh;
         background-size: contain;
         bottom: -2vh;
-        left: 7vh;
+        left: -2vh;
         background-repeat: no-repeat;
         z-index: 3;
     }

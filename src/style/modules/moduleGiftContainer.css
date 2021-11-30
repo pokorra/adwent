@@ -18,12 +18,25 @@
   text-decoration: underline;
 }
 
+.gift-display {
+  height: 75vw;
+width: 75vw;
+  
+  margin: 5vh;
+}
 .gift-download {
   cursor: pointer;
   min-height: 30vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
+}
+.gift-container__display {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .gift-download a {
@@ -36,7 +49,15 @@
 .gift-wesole {
   background-image: url(../../dataBase/files/pobranie_wesole_elfy_pic.jpg);
 }
-
+.gift-emi {
+  background-image: url(../../dataBase/files/Emi_kalendarz.PNG);
+}
+.gift-mikolajki {
+  background-image: url(../../images/mobile/fun_mikolajki_kwadrat.jpg);
+}
+.gift-emi-download {
+  background-image: url(../../dataBase/files/Emi_do_pobrania.jpg);
+}
 .gift-anchor-content {
   color: transparent;
   visibility: hidden;
@@ -48,11 +69,19 @@
     width: 60%;
     height: 60%;
   }
+  .gift-display {
+    height: 55vh;
+    width: auto;
+    margin: 2vh;
+  }
   .gift-download {
     min-height: 30vw;
   }
   .gift-container > iframe {
     min-width: 40vw;
     min-height: 25vw;
+  }
+  .gift-mikolajki {
+    background-image: url(../../images/desktop/fun_kalendarz_swiateczny_mikolajki.jpg);
   }
 }

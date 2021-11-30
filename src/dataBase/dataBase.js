@@ -26,7 +26,7 @@ export const arrayOfGifts = [
   </div>,
   <div className="gift-container">
     <iframe
-      src="https://www.youtube.com/embed/dkgNQpeBy_g"
+      src="https://www.youtube.com/embed/MBlXTikqQJw"
       title="Jak wykonać drewniane ozdoby"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

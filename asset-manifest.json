@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/adwent/static/css/main.6da133a4.chunk.css",
-    "main.js": "/adwent/static/js/main.d5b549c8.chunk.js",
-    "main.js.map": "/adwent/static/js/main.d5b549c8.chunk.js.map",
+    "main.css": "/adwent/static/css/main.a16067e5.chunk.css",
+    "main.js": "/adwent/static/js/main.f3369ab0.chunk.js",
+    "main.js.map": "/adwent/static/js/main.f3369ab0.chunk.js.map",
     "runtime-main.js": "/adwent/static/js/runtime-main.9a828ea2.js",
     "runtime-main.js.map": "/adwent/static/js/runtime-main.9a828ea2.js.map",
     "static/css/2.383c0125.chunk.css": "/adwent/static/css/2.383c0125.chunk.css",
@@ -10,9 +10,12 @@
     "static/js/2.0e0c0754.chunk.js.map": "/adwent/static/js/2.0e0c0754.chunk.js.map",
     "index.html": "/adwent/index.html",
     "static/css/2.383c0125.chunk.css.map": "/adwent/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.6da133a4.chunk.css.map": "/adwent/static/css/main.6da133a4.chunk.css.map",
+    "static/css/main.a16067e5.chunk.css.map": "/adwent/static/css/main.a16067e5.chunk.css.map",
     "static/js/2.0e0c0754.chunk.js.LICENSE.txt": "/adwent/static/js/2.0e0c0754.chunk.js.LICENSE.txt",
+    "static/media/EMI_ida_swieta_do_pobrania.7e79c1b6.pdf": "/adwent/static/media/EMI_ida_swieta_do_pobrania.7e79c1b6.pdf",
     "static/media/main.css": "/adwent/static/media/sosna_B.079695a5.png",
+    "static/media/kalendarz_adwent_emi.fa32b291.pdf": "/adwent/static/media/kalendarz_adwent_emi.fa32b291.pdf",
+    "static/media/konkurs_ania.c515b744.jpg": "/adwent/static/media/konkurs_ania.c515b744.jpg",
     "static/media/konkurs_mis_pracus.bd6ab4da.jpg": "/adwent/static/media/konkurs_mis_pracus.bd6ab4da.jpg",
     "static/media/pobranie_Wesole_swieta.619eeede.pdf": "/adwent/static/media/pobranie_Wesole_swieta.619eeede.pdf"
   },
@@ -20,7 +23,7 @@
     "static/js/runtime-main.9a828ea2.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.0e0c0754.chunk.js",
-    "static/css/main.6da133a4.chunk.css",
-    "static/js/main.d5b549c8.chunk.js"
+    "static/css/main.a16067e5.chunk.css",
+    "static/js/main.f3369ab0.chunk.js"
   ]
 }

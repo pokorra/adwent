@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adwent/static/css/main.03f7f85f.chunk.css",
+    "main.css": "/adwent/static/css/main.6da133a4.chunk.css",
     "main.js": "/adwent/static/js/main.d5b549c8.chunk.js",
     "main.js.map": "/adwent/static/js/main.d5b549c8.chunk.js.map",
     "runtime-main.js": "/adwent/static/js/runtime-main.9a828ea2.js",
@@ -10,7 +10,7 @@
     "static/js/2.0e0c0754.chunk.js.map": "/adwent/static/js/2.0e0c0754.chunk.js.map",
     "index.html": "/adwent/index.html",
     "static/css/2.383c0125.chunk.css.map": "/adwent/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.03f7f85f.chunk.css.map": "/adwent/static/css/main.03f7f85f.chunk.css.map",
+    "static/css/main.6da133a4.chunk.css.map": "/adwent/static/css/main.6da133a4.chunk.css.map",
     "static/js/2.0e0c0754.chunk.js.LICENSE.txt": "/adwent/static/js/2.0e0c0754.chunk.js.LICENSE.txt",
     "static/media/main.css": "/adwent/static/media/sosna_B.079695a5.png",
     "static/media/konkurs_mis_pracus.bd6ab4da.jpg": "/adwent/static/media/konkurs_mis_pracus.bd6ab4da.jpg",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9a828ea2.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.0e0c0754.chunk.js",
-    "static/css/main.03f7f85f.chunk.css",
+    "static/css/main.6da133a4.chunk.css",
     "static/js/main.d5b549c8.chunk.js"
   ]
 }

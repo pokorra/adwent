@@ -46,11 +46,14 @@ width: 75vw;
   min-width: 80vw;
 }
 
-.gift-wesole {
-  background-image: url(../../dataBase/files/pobranie_wesole_elfy_pic.jpg);
+.gift-rysowanie {
+  background-image: url(../../dataBase/files/pobranie_rysowanie_krok_pic.jpg);
 }
 .gift-emi {
   background-image: url(../../dataBase/files/Emi_kalendarz.PNG);
+}
+.gift-smocza {
+  background-image: url(../../dataBase/files/smocza_straz_pic.jpg);
 }
 .gift-mikolajki {
   background-image: url(../../images/mobile/fun_mikolajki_kwadrat.jpg);
@@ -61,6 +64,23 @@ width: 75vw;
 .gift-anchor-content {
   color: transparent;
   visibility: hidden;
+}
+.gift-renifer {
+  background-image: url(../../images/mobile/fun_RENIFERi_kwadrat.jpg)
+}
+.gift-piernik {
+  background-image: url(../../images/mobile/fun_piernik_kwadrat.jpg)
+}
+.gift-wesoleswieta {
+  background-image: url(../../dataBase/files/pobranie_wesole_swieta_pic.jpg);
+}
+.gift-wesole-elfy {
+  background-image: url(../../dataBase/files/pobranie_wesole_elfy_pic.jpg);
+}
+
+.image__sale {
+  border: 3px solid white;
+  box-shadow: 0 0 15px 9px #adff2f;
 }
 
 @media (min-width: 800px) and (orientation: landscape) {
@@ -78,10 +98,16 @@ width: 75vw;
     min-height: 30vw;
   }
   .gift-container > iframe {
-    min-width: 40vw;
+    min-width: 35vw;
     min-height: 25vw;
   }
   .gift-mikolajki {
     background-image: url(../../images/desktop/fun_kalendarz_swiateczny_mikolajki.jpg);
+  }
+  .gift-renifer {
+    background-image: url(../../images/desktop/fun_kalendarz_swiateczny_RENIFERi.jpg);
+  }
+  .gift-piernik {
+    background-image: url(../../images/desktop/fun_kalendarz_swiateczny_piernik.jpg)
   }
 }

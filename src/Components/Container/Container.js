@@ -4,7 +4,7 @@ import Window from "../Window/Window";
 const Container = () => {
   const date = new Date();
   const currentDate = date.getDate();
-
+  
   return (
     <div className="main-container">
       <Window currentDate={currentDate} thisDay={5} />

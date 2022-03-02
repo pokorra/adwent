@@ -13,16 +13,16 @@ import konkurs_noworoczny_21 from "./files/konkurs_noworoczny_21.jpg";
 export const arrayOfGifts = [
   <div className="gift-container">
     <iframe
-      src="https://www.youtube.com/embed/dkgNQpeBy_g"
+      src="https://www.youtube.com/embed/dkgNQpeBy_g" //1
       title="DIY torebki na prezenty"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-rysowanie">
+  <div className="gift-container gift-container__primary gift-container__download gift-rysowanie">
     <a
-      href={pobranie_rysowanie_krok}
+      href={pobranie_rysowanie_krok} //2
       target="_blank"
       rel="noreferrer"
       download={pobranie_rysowanie_krok}
@@ -32,7 +32,7 @@ export const arrayOfGifts = [
   </div>,
   <div className="gift-container">
     <iframe
-      src="https://www.youtube.com/embed/MBlXTikqQJw"
+      src="https://www.youtube.com/embed/MBlXTikqQJw" //3
       title="Jak wykonać drewniane ozdoby"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -41,14 +41,14 @@ export const arrayOfGifts = [
   </div>,
   <div className="gift-container">
     <img
-      src={konkurs_mis_pracus} //4.12
+      src={konkurs_mis_pracus} //4
       alt="miś pracuś"
       className="gift-container__image"
     ></img>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-emi">
+  <div className="gift-container gift-container__primary gift-container__download gift-emi">
     <a
-      href={kalendarz_adwent_emi}
+      href={kalendarz_adwent_emi} //5
       target="_blank"
       rel="noreferrer"
       download={kalendarz_adwent_emi}
@@ -58,12 +58,12 @@ export const arrayOfGifts = [
       </p>
     </a>
   </div>,
-  <div className="gift-container gift-display">
-    <div className="gift-container__display gift-mikolajki"></div>
+  <div className="gift-container gift-container__display">
+    <div className="gift-container__display-inner-box gift-mikolajki"></div>
   </div>,
   <div className="gift-container">
     <iframe
-      src="https://www.youtube.com/embed/QaxzGy3I4Lo"
+      src="https://www.youtube.com/embed/QaxzGy3I4Lo" //7
       title="Marcin Przewoźniak czyta Mamę w occie"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -72,16 +72,16 @@ export const arrayOfGifts = [
   </div>,
   <div className="gift-container">
     <iframe
-      src="https://www.youtube.com/embed/Vp-KdQ_DlnU"
+      src="https://www.youtube.com/embed/Vp-KdQ_DlnU" //8
       title="Jak zrobić kartkę z bałwankiem"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-emi-download">
+  <div className="gift-container gift-container__primary gift-container__download gift-emi-download">
     <a
-      href={EMI_ida_swieta_do_pobrania}
+      href={EMI_ida_swieta_do_pobrania} //9
       target="_blank"
       rel="noreferrer"
       download={EMI_ida_swieta_do_pobrania}
@@ -91,14 +91,14 @@ export const arrayOfGifts = [
   </div>,
   <div className="gift-container">
     <img
-      src={konkurs_ania} // 10.12
+      src={konkurs_ania} // 10
       alt="konkurs: Ania z Zielonego Wzgórza"
       className="gift-container__image"
     ></img>
   </div>,
   <div className="gift-container">
     <img
-      src={rabat}
+      src={rabat} //11
       alt="Specjalny kod rabatowy!"
       className="gift-container__image image__sale"
     ></img>
@@ -110,8 +110,8 @@ export const arrayOfGifts = [
       className="gift-container__image"
     ></img>
   </div>,
-  <div className="gift-container gift-display">
-    <div className="gift-container__display gift-renifer"></div>
+  <div className="gift-container gift-container__display">
+    <div className="gift-container__display-inner-box gift-renifer"></div>
   </div>,
   <div className="gift-container">
     <iframe
@@ -131,7 +131,7 @@ export const arrayOfGifts = [
       allowFullScreen
     ></iframe>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-wesoleswieta">
+  <div className="gift-container gift-container__primary gift-container__download gift-wesoleswieta">
     <a
       href={pobranie_Wesoleswieta} //16
       target="_blank"
@@ -150,10 +150,10 @@ export const arrayOfGifts = [
       allowFullScreen
     ></iframe>
   </div>,
-  <div className="gift-container gift-display"> 
-    <div className="gift-container__display gift-piernik"></div>
+  <div className="gift-container gift-container__display">
+    <div className="gift-container__display-inner-box gift-piernik"></div>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-smocza">
+  <div className="gift-container gift-container__primary gift-container__download gift-smocza">
     <a
       href={kalendarz_adwent_smocza_straz} //19
       target="_blank"
@@ -165,7 +165,7 @@ export const arrayOfGifts = [
       </p>
     </a>
   </div>,
-  <div className="gift-container gift-container__primary gift-download gift-wesole-elfy">
+  <div className="gift-container gift-container__primary gift-container__download gift-wesole-elfy">
     <a
       href={pobranie_Wesole_elfy} //20
       target="_blank"

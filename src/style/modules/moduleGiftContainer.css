@@ -18,20 +18,21 @@
   text-decoration: underline;
 }
 
-.gift-display {
+.gift-container__display {
   height: 75vw;
-width: 75vw;
-  
+  width: 75vw; 
   margin: 5vh;
 }
-.gift-download {
+
+.gift-container__download {
   cursor: pointer;
   min-height: 30vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
 }
-.gift-container__display {
+
+.gift-container__display-inner-box {
   width: 100%;
   height: 100%;
   background-size: contain;
@@ -39,13 +40,20 @@ width: 75vw;
   background-position: center;
 }
 
-.gift-download a {
+.gift-container__download a {
   width: 100%;
 }
+
 .gift-container > iframe {
   min-width: 80vw;
 }
 
+.gift-anchor-content {
+  color: transparent;
+  visibility: hidden;
+}
+
+/* particular days: */
 .gift-rysowanie {
   background-image: url(../../dataBase/files/pobranie_rysowanie_krok_pic.jpg);
 }
@@ -60,10 +68,6 @@ width: 75vw;
 }
 .gift-emi-download {
   background-image: url(../../dataBase/files/Emi_do_pobrania.jpg);
-}
-.gift-anchor-content {
-  color: transparent;
-  visibility: hidden;
 }
 .gift-renifer {
   background-image: url(../../images/mobile/fun_RENIFERi_kwadrat.jpg)
@@ -89,12 +93,12 @@ width: 75vw;
     width: 60%;
     height: 60%;
   }
-  .gift-display {
+  .gift-container__display {
     height: 55vh;
     width: auto;
     margin: 2vh;
   }
-  .gift-download {
+  .gift-container__download {
     min-height: 30vw;
   }
   .gift-container > iframe {

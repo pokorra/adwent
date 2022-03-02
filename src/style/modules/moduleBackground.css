@@ -15,7 +15,6 @@
   width: 100vw;
   height: 120vh;
   top: 0;
-  /* bottom: 0; */
   background-size: contain;
   background-image: url(../../images/mobile/snieg_mobile.png);
   animation: bubbles 3s linear infinite;
@@ -32,29 +31,28 @@
   top: 0vh;
   left: 30vw;
 }
-.main-container__leaves1 {
+.background__leaves {
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.background__leaves--top-left {
   background-image: url(../../images//desktop/desk_jemiola.png);
   width: 22vh;
   height: 21vh;
   top: 0vh;
   left: -10vw;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 3;
 }
-.main-container__leaves2 {
-  position: absolute;
+.background__leaves--top-right {
   background-image: url(../../images//desktop/desk_listki_duze.png);
   width: 21vh;
   height: 17vh;
   top: -2.5vh;
   right: 0vw;
   background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 3;
 }
-.main-container__leaves2::after {
+.background__leaves--top-right::after {
   content: "";
   position: absolute;
   background-image: url(../../images/mobile/Logo_Wilga_swieta.png);
@@ -81,61 +79,49 @@
     top: 0vh;
     left: 2vw;
   }
-  .main-container__leaves1 {
+  .background__leaves--top-left {
     width: 35vh;
     height: 35vh;
     top: -5vh;
     left: 30vh;
   }
-  .main-container__leaves2 {
+  .background__leaves--top-right {
     width: 60vh;
     height: 40vh;
     top: -5vh;
     right: 15vh;
   }
-  .main-container__leaves2::after {
+  .background__leaves--top-right::after {
     top: 5vw;
     right: -4vw;
     width: 10vh;
     height: 14vh;
     z-index: 15;
   }
-  .main-container__leaves3 {
-    position: absolute;
-    background-image: url(../../images//desktop/desk_listki_duze2.png);
-    width: 21vh;
-    height: 40vh;
-    background-size: contain;
-    bottom: 0;
-    right: -2vh;
-    background-repeat: no-repeat;
-    z-index: 3;
-  }
-  .main-container__leaves4 {
-    position: absolute;
-    background-image: url(../../images//desktop/desk_listki_duze2.png);
-    transform: scaleX(-1);
-    width: 21vh;
-    height: 40vh;
-    background-size: contain;
-    bottom: -2vh;
-    left: -2vh;
-    background-repeat: no-repeat;
-    z-index: 3;
-  }
-  .main-container__leaves5 {
-    position: absolute;
+  .background__leaves--top-right-lower {
     background-image: url(../../images//desktop/desk_listki1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 20vh;
     height: 23vh;
     top: 17vh;
     right: 1vh;
-    z-index: 3;
   }
-  .tree {
-    content: "";
+  .background__leaves--right-bottom {
+    background-image: url(../../images//desktop/desk_listki_duze2.png);
+    width: 21vh;
+    height: 40vh;
+    bottom: 0;
+    right: 2vh;
+  }
+  .background__leaves--left-bottom {
+    background-image: url(../../images//desktop/desk_listki_duze2.png);
+    transform: scaleX(-1);
+    width: 21vh;
+    height: 40vh;
+    bottom: -2vh;
+    left: -2vh;
+  }
+
+  .background__tree {
     position: absolute;
     height: 65vh;
     width: 30vh;
@@ -143,11 +129,11 @@
     background-repeat: no-repeat;
     bottom: 0;
   }
-  .tree1 {
+  .background__tree--left {
     background-image: url(../../images/desktop/sosna_A.png);
     left: 10vh;
   }
-  .tree2 {
+  .background__tree--right {
     background-image: url(../../images/desktop/sosna_B.png);
     right: 10vh;
   }

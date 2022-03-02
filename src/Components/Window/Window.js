@@ -14,7 +14,7 @@ const Window = ({ currentDate, thisDay }) => {
       <button
         onClick={openModal}
         disabled={isBtnDsbled}
-        className={`window window-pic-${thisDay} ${
+        className={`window window--picture-${thisDay} ${
           isBtnDsbled ? "darker" : "pointer"
         }`}
       ></button>

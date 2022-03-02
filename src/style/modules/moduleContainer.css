@@ -1,34 +1,29 @@
 .main-container {
-    /* border: 1px solid black; */
-    background-image: url(../../images/mobile/container_longer.png);
-    /* background-size: cover; */
-    background-size: 100vw 145vh;
-    padding: 22vh 2vh 5vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 33vw);
-    overflow: auto;
-    width: 100vw;
-    position: absolute;
-    top: 0vh;
+  background-image: url(../../images/mobile/container_longer.png);
+  background-size: 100vw 145vh;
+  padding: 22vh 2vh 5vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 33vw);
+  overflow: auto;
+  width: 100vw;
+  position: absolute;
+  top: 0vh;
 }
 
-
-@media (min-width: 800px ) and (orientation: landscape) {
-    .main-container {
-        height: 90vh;
-        width: 125vh;
-        margin: auto auto 0;
-        padding: 18vh 9vh 8vh;
-        overflow: hidden;
-        background-image: url(../../images/desktop/container.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(3, 24vh);
-        position: relative;
-
-    }
-
+@media (min-width: 800px) and (orientation: landscape) {
+  .main-container {
+    height: 90vh;
+    width: 125vh;
+    margin: auto auto 0;
+    padding: 18vh 9vh 8vh;
+    overflow: hidden;
+    background-image: url(../../images/desktop/container.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 24vh);
+    position: relative;
+  }
 }

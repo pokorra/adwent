@@ -11,5 +11,5 @@ Project layout was prepared in pure CSS with usage of BEM class naming method, a
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Take a look
-To watch this site you can visit this address: [Święta z Wilgą](http://swietazwilga.pl/) 
+To watch this site you can just click here: [Święta z Wilgą](https://pokorra.github.io/adwent/) 
 

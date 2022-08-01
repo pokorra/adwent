@@ -9,6 +9,7 @@
   flex-direction: column-reverse;
   position: relative;
 }
+
 .background::after {
   content: "";
   position: absolute;
@@ -19,6 +20,7 @@
   background-image: url(../../images/mobile/snieg_mobile.png);
   animation: bubbles 3s linear infinite;
 }
+
 .background::before {
   content: "";
   position: absolute;
@@ -31,12 +33,14 @@
   top: 0vh;
   left: 30vw;
 }
+
 .background__leaves {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 3;
 }
+
 .background__leaves--top-left {
   background-image: url(../../images//desktop/desk_jemiola.png);
   width: 22vh;
@@ -44,6 +48,7 @@
   top: 0vh;
   left: -10vw;
 }
+
 .background__leaves--top-right {
   background-image: url(../../images//desktop/desk_listki_duze.png);
   width: 21vh;
@@ -52,6 +57,7 @@
   right: 0vw;
   background-size: cover;
 }
+
 .background__leaves--top-right::after {
   content: "";
   position: absolute;
@@ -65,32 +71,38 @@
   z-index: 8;
 }
 
+
 @media (min-width: 800px) and (orientation: landscape) {
   .background {
     background-image: url(../../images/desktop/background.png);
     overflow: hidden;
   }
+
   .background::after {
     background-image: url(../../images/desktop/desk_snieg.png);
   }
+
   .background::before {
     width: 28vh;
     height: 52vh;
     top: 0vh;
     left: 2vw;
   }
+
   .background__leaves--top-left {
     width: 35vh;
     height: 35vh;
     top: -5vh;
     left: 30vh;
   }
+
   .background__leaves--top-right {
     width: 60vh;
     height: 40vh;
     top: -5vh;
     right: 15vh;
   }
+
   .background__leaves--top-right::after {
     top: 5vw;
     right: -4vw;
@@ -98,6 +110,7 @@
     height: 14vh;
     z-index: 15;
   }
+
   .background__leaves--top-right-lower {
     background-image: url(../../images//desktop/desk_listki1.png);
     width: 20vh;
@@ -105,6 +118,7 @@
     top: 17vh;
     right: 1vh;
   }
+
   .background__leaves--right-bottom {
     background-image: url(../../images//desktop/desk_listki_duze2.png);
     width: 21vh;
@@ -112,6 +126,7 @@
     bottom: 0;
     right: 2vh;
   }
+
   .background__leaves--left-bottom {
     background-image: url(../../images//desktop/desk_listki_duze2.png);
     transform: scaleX(-1);
@@ -129,15 +144,18 @@
     background-repeat: no-repeat;
     bottom: 0;
   }
+
   .background__tree--left {
     background-image: url(../../images/desktop/sosna_A.png);
     left: 10vh;
   }
+
   .background__tree--right {
     background-image: url(../../images/desktop/sosna_B.png);
     right: 10vh;
   }
 }
+
 
 @keyframes bubbles {
   0%,
